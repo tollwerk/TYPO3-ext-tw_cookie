@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-06-18T12:00:00Z" product-name="tw_cookie">
+		<header/>
+		<body>
+      <trans-unit id="settings.privacyPid">
+        <source>Privacy disclaimer pid</source>
+      </trans-unit>
+      <trans-unit id="settings.privacySection">
+        <source>#privacy link anchor</source>
+      </trans-unit>
+		</body>
+	</file>
+</xliff>

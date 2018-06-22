@@ -1,0 +1,21 @@
+.CookieBanner {
+
+}
+
+.CookieBanner__inner {
+	padding: 1em;
+	margin-bottom: 2em;
+	border-bottom: solid .5em #ddd;
+}
+
+.CookieBanner__accept {
+	padding: .5em 1em;
+	display: inline-block;
+	background-color: rgb(1, 59, 120);
+	color: #fff;
+	text-decoration: none;
+}
+
+.CookieBanner__accept:hover {
+	background-color: #098FD3;
+}

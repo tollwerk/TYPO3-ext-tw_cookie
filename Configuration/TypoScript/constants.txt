@@ -1,0 +1,9 @@
+plugin.tx_twcookie {
+	settings {
+		# cat=plugin.tx_twcookie//100; type=int+; label=LLL:EXT:tw_cookie/Resources/Private/Language/locallang_db.xlf:settings.privacyPid
+		privacyPid =
+
+		# cat=plugin.tx_twcookie//110; type=string; label=LLL:EXT:tw_cookie/Resources/Private/Language/locallang_db.xlf:settings.privacySection
+		privacySection =
+	}
+}

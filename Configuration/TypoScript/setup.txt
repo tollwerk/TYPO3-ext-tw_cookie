@@ -1,0 +1,30 @@
+plugin.tx_twcookie {
+	settings {
+		privacyPid = {$plugin.tx_twcookie.settings.privacyPid}
+		privacySection = {$plugin.tx_twcookie.settings.privacySection}
+	}
+}
+
+plugin.tx_twcookie_banner = USER_INT
+plugin.tx_twcookie_banner {
+	userFunc = TYPO3\CMS\Extbase\Core\Bootstrap->run
+	vendorName = Tollwerk
+	extensionName = TwCookie
+	pluginName = Banner
+	controller = Cookie
+	action = banner
+	switchableControllerActions {
+		Cookie {
+			1 = banner
+			2 = accept
+		}
+	}
+
+	view < plugin.tx_twcookie.view
+	persistence < plugin.tx_twcookie.persistence
+	settings < plugin.tx_twcookie.settings
+}
+
+page.includeCSS {
+	tw_cookie = EXT:tw_cookie/Resources/Public/Css/Styles.css
+}

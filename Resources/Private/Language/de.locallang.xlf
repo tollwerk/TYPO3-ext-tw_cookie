@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+    <file source-language="de" datatype="plaintext" original="messages" date="2018-06-18T12:00:00Z" product-name="tw_cookie">
+        <header/>
+        <body>
+            <trans-unit id="banner.heading" approved="no">
+                <source>Cookie usage on this site</source> <target state="needs-translation">Hinweis zu Verwendung von Cookies</target></trans-unit>
+            <trans-unit id="banner.text" approved="no">
+                <source>This website uses cookies to ensure you get the best experience on our website. By continuing to use our site, you accept our use of cookies.</source> <target state="needs-translation">Cookies erleichtern die Bereitstellung unserer Dienste. Mit der Nutzung unserer Dienste erklären Sie sich damit einverstanden, dass wir Cookies verwenden.</target></trans-unit>
+            <trans-unit id="banner.readMore" approved="no">
+                <source>Read more about how we use cookies in our &lt;a href="%s" target="_blank"&gt;Privacy Policy&lt;/a&gt;.</source> <target state="needs-translation">Mehr Informationen dazu finden Sie in unserer &lt;a href="%s" target="_blank"&gt;Datenschutzerklärung&lt;/a&gt;.</target></trans-unit>
+            <trans-unit id="banner.accept" approved="no">
+                <source>I accept</source> <target state="needs-translation">OK, verstanden</target></trans-unit>
+        </body>
+    </file>
+</xliff>

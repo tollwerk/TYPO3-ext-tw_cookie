@@ -1,0 +1,25 @@
+{namespace cookie=Tollwerk\TwCookie\ViewHelpers}
+
+<f:if condition="{cookie:accept()}">
+    <f:else>
+        <div class="CookieBanner">
+            <div class="CookieBanner__inner">
+                <h2>
+                    <f:translate key="banner.heading"/>
+                </h2>
+                <p>
+                    <f:translate key="banner.text"/>
+                    <f:if condition="{settings.privacyPid}">
+                        <f:translate key="banner.readMore"
+                                     arguments="{0: '{f:uri.page(pageUid: settings.privacyPid, section: settings.privacySection)}'}"/>
+                    </f:if>
+                </p>
+                <p>
+                    <f:link.action action="accept" class="CookieBanner__accept" noCacheHash="1">
+                        <f:translate key="banner.accept"/>
+                    </f:link.action>
+                </p>
+            </div>
+        </div>
+    </f:else>
+</f:if>
