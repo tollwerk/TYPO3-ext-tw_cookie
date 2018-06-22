@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = array(
     'title' => 'tollwerk Cookie Consent',
-    'description' => 'Provide a Cookie Consent Banner',
+    'description' => 'Cookie Consent Banner for TYPO3 websites',
     'category' => 'plugin',
     'author' => 'Klaus Fiedler',
     'author_email' => 'klaus@tollwerk.de',
